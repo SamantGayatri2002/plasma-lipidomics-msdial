@@ -95,7 +95,7 @@ project/
 └── README.md
 ```
 
-#Processing
+# Processing
 
 The workflow consists of:
 
@@ -106,7 +106,7 @@ The workflow consists of:
 - Generation of summary tables.
 - Lipid-class level summarization.
 
-#Test Sample
+# Test Sample
 
 The workflow was validated using sample:
 ```
@@ -130,7 +130,7 @@ The example results include:
 
 The lipid annotations should be considered putative annotations supported by the available MS/MS evidence, rather than definitive structural identifications.
 
-#Parameters
+# Parameters
 
 Final MS-DIAL parameter files are provided for each polarity:
 ```
@@ -139,13 +139,13 @@ msdial5_lipidomics_NEG_MSP.txt
 ```
 The positive and negative modes use polarity-specific adduct lists and lipid-class settings.
 
-#LBM2 Library Test
+# LBM2 Library Test
 
 An LBM2 lipid library was tested during workflow development.
 
 The LBM2 loading step produced a MessagePack format error in the MS-DIAL Console workflow. Therefore, the final validated workflow uses the MSP spectral library approach.
 
-#Reproducibility
+# Reproducibility
 
 Large raw data files, mzML files, spectral libraries, and generated MS-DIAL files are excluded from the repository using .gitignore.
 
@@ -200,7 +200,7 @@ with separate positive and negative mzML files.
 
 The current results are intended for workflow validation and should not be interpreted as biological conclusions.
 
-Results
+# Results
 
 The example results include:
 
@@ -213,7 +213,7 @@ MS/MS-supported lipid annotations
 
 The lipid annotations should be considered putative annotations supported by the available MS/MS evidence, rather than definitive structural identifications.
 
-Parameters
+# Parameters
 
 Final MS-DIAL parameter files are provided for each polarity:
 
@@ -222,13 +222,13 @@ msdial5_lipidomics_NEG_MSP.txt
 
 The positive and negative modes use polarity-specific adduct lists and lipid-class settings.
 
-LBM2 Library Test
+# LBM2 Library Test
 
 An LBM2 lipid library was tested during workflow development.
 
 The LBM2 loading step produced a MessagePack format error in the MS-DIAL Console workflow. Therefore, the final validated workflow uses the MSP spectral library approach.
 
-#Reproducibility
+# Reproducibility
 
 Large raw data files, mzML files, spectral libraries, and generated MS-DIAL files are excluded from the repository using .gitignore.
 
@@ -237,7 +237,7 @@ The detailed workflow documentation is available in:
 docs/MSDIAL_Console_Lipidomics_Workflow_VZ0000099.md
 ```
 
-#Future Development
+# Future Development
 
 Planned extensions include:
 
@@ -250,7 +250,7 @@ Planned extensions include:
 - Nextflow workflow implementation
 
 
-#Author
+# Author
 
 Gayatri Samant
 
