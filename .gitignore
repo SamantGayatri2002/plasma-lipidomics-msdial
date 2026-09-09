@@ -1,0 +1,53 @@
+# ==============================
+# Raw / converted MS data
+# ==============================
+*.raw
+*.mzML
+*.mzXML
+*.mzML.gz
+
+# ==============================
+# MS-DIAL generated files
+# ==============================
+*.mdpeak
+*.mdmsp
+*.mdalign
+*.mzTabM
+*.dcl
+*.pai2
+*.aef
+*.arf
+*.arf2
+*_tags.xml
+
+# ==============================
+# MS-DIAL libraries
+# ==============================
+*.msp
+*.lbm
+*.lbm2
+*.dbs
+
+# ==============================
+# Local/generated directories
+# ==============================
+logs/
+results_pos/
+results_neg/
+results_pos_test/
+results_pos_msp/
+results_neg_msp/
+results_summary/
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.log
+
+# ==============================
+# OS/editor files
+# ==============================
+.DS_Store
+Thumbs.db
+*.swp

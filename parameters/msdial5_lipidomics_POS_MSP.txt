@@ -1,0 +1,201 @@
+MS1 data type: Centroid
+MS2 data type: Centroid
+Ion mode: Positive
+Target omics: Lipidomics
+Ionization: ESI
+Machine category: LCMS
+Instrument type: 
+Instrument: 
+Authors: 
+License: 
+Comment: 
+Msp file path: /home/shobita/Lipidomics/MSDIAL-InsilicoMSMS-Lipids-Pos.msp
+Lbm file path:
+Text DB file path: C:\Users\knishida\Desktop\MSDIALCUI_demo_lcms_lipidomics\lib\20200121_MsdialTxtDB_Neg_EquiSPLASH_rapid.txt
+Isotope text DB file path: 
+Compounds library file path for target detection: 
+Compounds library file path for RT correction: 
+
+#Adduct ion setting
+adduct list: [M+H]+,[M+NH4]+,[M+Na]+,[M+H-H2O]+
+
+# MSP-based annotation
+RT tolerance for MSP-based annotation: 100
+RI tolerance for MSP-based annotation: 100
+CCS tolerance for MSP-based annotation: 20
+Mass range begin for MSP-based annotation: 0
+Mass range end for MSP-based annotation: 2000
+Relative amplitude cutoff for MSP-based annotation: 0
+Absolute amplitude cutoff for MSP-based annotation: 0
+Weighted dot product cutoff for MSP-based annotation: 0.6
+Simple dot product cutoff for MSP-based annotation: 0.6
+Reverse dot product cutoff for MSP-based annotation: 0.8
+Matched peaks percentage cutoff for MSP-based annotation: 0.1
+Minimum spectrum match for MSP-based annotation: 3
+Total score cutoff for MSP-based annotation: 0.8
+MS1 tolerance for MSP-based annotation: 0.01
+MS2 tolerance for MSP-based annotation: 0.025
+Use retention information for MSP-based annotation scoring: False
+Use retention information for MSP-based annotation filtering: False
+Use CCS for MSP-based annotation scoring: False
+Use CCS for MSP-based annotation filtering: False
+Only report top hit for MSP-based annotation: False
+Execute annotation process only for alignment file: False
+
+# Text-based annotation
+RT tolerance for Text-based annotation: 0.1
+RI tolerance for Text-based annotation: 100
+CCS tolerance for Text-based annotation: 20
+Total score cutoff for Text-based annotation: 0.85
+Accurate ms1 tolerance for Text-based annotation: 0.01
+Use retention information for Text-based annotation scoring: False
+Use retention information for Text-based annotation filtering: False
+Use CCS for Text-based annotation scoring: False
+Use CCS for Text-based annotation filtering: False
+Only report top hit for Text-based annotation: False
+
+# LBM-based annotation
+RT tolerance for LBM-based annotation: 2
+RI tolerance for LBM-based annotation: 100
+CCS tolerance for LBM-based annotation: 20
+Mass range begin for LBM-based annotation: 0
+Mass range end for LBM-based annotation: 2000
+Relative amplitude cutoff for LBM-based annotation: 0
+Absolute amplitude cutoff for LBM-based annotation: 0
+Weighted dot product cutoff for LBM-based annotation: 0.1
+Simple dot product cutoff for LBM-based annotation: 0.1
+Reverse dot product cutoff for LBM-based annotation: 0.1
+Matched peaks percentage cutoff for LBM-based annotation: 0
+Minimum spectrum match for LBM-based annotation: 1
+Total score cutoff for LBM-based annotation: 0.5
+MS1 tolerance for LBM-based annotation: 0.01
+MS2 tolerance for LBM-based annotation: 0.025
+Use retention information for LBM-based annotation scoring: True
+Use retention information for LBM-based annotation filtering: True
+Use CCS for LBM-based annotation scoring: False
+Use CCS for LBM-based annotation filtering: False
+Only report top hit for LBM-based annotation: False
+
+# Export
+Export spectra file format: msp
+Export spectra type: deconvoluted
+Mat file export folder path: 
+Export folder path: 
+Height matrix export: True
+Normalized height matrix export: False
+Representative spectra export: False
+Peak ID matrix export: False
+Retention time matrix export: False
+Mass matrix export: False
+MSMS included matrix export: False
+Unique mass matrix export: False
+Peak area matrix export: False
+Parameter export: False
+GNPS export: False
+Molecular networking export: False
+SN matrix export: False
+Export as mztabM format: True
+
+
+# Process parameters
+Process option: All
+Number of threads: 20
+
+
+# Feature detection parameters
+Smoothing method: LinearWeightedMovingAverage
+Smoothing level: 3
+Minimum peak height: 300
+Minimum peak width: 5
+Average peak width: 30
+Mass slice width: 0.05
+Retention time begin: 0
+Retention time end: 100
+MS1 mass range begin: 0
+MS1 mass range end: 2000
+MS2 mass range begin: 0
+MS2 mass range end: 2000
+MS1 tolerance for centroid: 0.01
+MS2 tolerance for centroid: 0.025
+Accuracy type: IsAccurate
+Max charge number: 2
+Considering Br and Cl for isotopes: False
+Exclude mass list: 
+Max isotopes detected in ms1 spectrum: 2
+
+
+# Deconvolution
+Sigma window value: 0.5
+Amplitude cut off: 0
+Keep isotope range: 5
+Exclude after precursor: True
+Keep original precursor isotopes: False
+Is do andromeda ms2 deconvolution: False
+Andromeda delta: 100
+Andromeda max peaks: 12
+Target CE: 0
+
+
+# Annotation parameter
+Solvent type: HCOONH4
+Searched lipid class: CAR [M+H]+;LPC [M+H]+;LPC [M+Na]+;LPE [M+H]+;PC [M+H]+;PC [M+Na]+;PE [M+H]+;PE [M+Na]+;PI [M+NH4]+;PI [M+Na]+;PS [M+H]+;PS [M+Na]+;PG [M+NH4]+;EtherLPC [M+H]+;EtherLPE [M+H]+;EtherPC [M+H]+;EtherPE [M+H]+;Sph [M+H]+;DHSph [M+H]+;PhytoSph [M+H]+;SM [M+H]+;SM [M+Na]+;NAE [M+H]+;GPNAE [M+H]+;MG [M+NH4]+;DG [M+NH4]+;DG [M+Na]+;TG [M+NH4]+;TG [M+Na]+;EtherDG [M+NH4]+;EtherTG [M+NH4]+;EtherTG [M+Na]+;CE [M+NH4]+;CoQ [M+H]+;Vitamin_D [M+H]+;Vitamin_D [M+Na]+;VAE [M+H]+;VAE [M+Na]+;Cer_NS [M+H]+;Cer_NS [M+H-H2O]+;Cer_NS [M+Na]+;Cer_NDS [M+H]+;Cer_NDS [M+H-H2O]+;Cer_NDS [M+Na]+;Cer_EOS [M+H]+;Cer_EOS [M+H-H2O]+;Cer_AP [M+H]+;Cer_AP [M+H-H2O]+;Cer_HS [M+H]+;Cer_HS [M+H-H2O]+;Cer_HDS [M+H]+;Cer_HDS [M+H-H2O]+;HexCer_NS [M+H]+;HexCer_NS [M+H-H2O]+;HexCer_NDS [M+H]+;HexCer_NDS [M+H-H2O]+;HexCer_AP [M+H]+;HexCer_AP [M+H-H2O]+;HexCer_EOS [M+H]+;HexCer_EOS [M+H-H2O]+;HexCer_HS [M+H]+;HexCer_HS [M+H-H2O]+;HexCer_HDS [M+H]+;HexCer_HDS [M+H-H2O]+;Hex2Cer [M+H]+;Hex3Cer [M+H]+;AHexCer [M+H]+;AHexCer [M+H-H2O]+;ASM [M+H]+;SHexCer [M+H]+;MMPE [M+H]+;DMPE [M+H]+;EGSE [M+H]+;EGSE [M+NH4]+;EGSE [M+Na]+;DEGSE [M+H]+;DEGSE [M+NH4]+;DEGSE [M+Na]+;ST [M+H]+;ST [M+NH4]+;ST [M+Na]+;ST [M+H-H2O]+;OxTG [M+NH4]+;TG_EST [M+NH4]+;MIPC [M+H]+;LCAE [M+NH4]+;KLCAE [M+NH4]+;KDCAE [M+NH4]+;NAGly [M+H]+;NAGly [M+NH4]+;NAGlySer [M+H]+;NAGlySer [M+NH4]+;NAOrn [M+H]+;NATau [M+H]+;NATau [M+NH4]+;SL [M+H]+;SL [M+NH4]+;GM1 [M+H]+;GM3 [M+NH4]+;NGcGM3 [M+H]+;NGcGM3 [M+NH4]+
+
+
+# Retention index dictionary information
+
+
+# Alignment parameters
+Alignment reference file ID: 0
+Retention time tolerance for alignment: 0.1
+Retention time factor for alignment: 0.5
+Spectrum similarity tolerance for alignment: 0.8
+Spectrum similarity factor for alignment: 0.5
+MS1 tolerance for alignment: 0.015
+MS1 factor for alignment: 0.5
+Force insert peaks in gap filling: True
+
+
+# Filtering
+Peak count filter: 0
+N percent detected in one group: 0
+Remove feature based on peak height fold-change: False
+Blank filtering: SampleMaxOverBlankAve
+Sample max / blank average: 5
+Sample average / blank average: 5
+Keep reference matched metabolites: True
+Keep suggested metabolites: False
+Keep removable features and assigned tag for checking: True
+Replace true zero values with 1/2 of minimum peak height over all samples: False
+
+
+# Retention time correction
+Execute RT correction: False
+RT correction with smoothing for RT diff: False
+User setting intercept: 0
+RT diff calc method: SampleMinusSampleAverage
+Interpolation method: Linear
+Extrapolation method (begin): UserSetting
+Extrapolation method (end): LastPoint
+Internal standards for RT alignment: 
+
+
+# Isotope tracking setting
+Tracking isotope label: False
+Set fully labeled reference file: False
+Non labeled reference ID: 0
+Fully labeled reference ID: 0
+Isotope tracking dictionary ID: 0
+
+
+# CorrDec settings
+CorrDec execute: False
+CorrDec MS2 tolerance: 0.01
+CorrDec minimum MS2 peak height: 1000
+CorrDec minimum number of detected samples: 3
+CorrDec exclude highly correlated spots: 0.9
+CorrDec minimum correlation coefficient (MS2): 0.7
+CorrDec margin 1 (target precursor): 0.2
+CorrDec margin 2 (coeluted precursor): 0.1
+CorrDec minimum detected rate: 0.5
+CorrDec minimum MS2 relative intensity: 2
+CorrDec remove peaks larger than precursor: True
